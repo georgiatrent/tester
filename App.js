@@ -41,7 +41,7 @@ export default function App() {
       ) : (
         <View style={styles.footerContainer} >
           <Button theme="primary" label="Choose a photo" onPress={pickImageAsync} />
-          <Button label="Use this photo" onPress={() => setShowOptions(true)} />
+          <Button label="Die this photo" onPress={() => setShowOptions(true)} />
         </View >
       )}
       <StatusBar style="auto" />
